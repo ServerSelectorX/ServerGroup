@@ -1,0 +1,31 @@
+# Server groups with corresponding prefix.
+# For example, setting 'hub' to 'hub_' will include 'hub_1', 'hub_2', 'hub_some_text', etc.
+# You must have one server group called 'hub', when players run /hub or /lobby it will teleport to this group.
+groups:
+  hub: 'hub_'
+  skywars: 'skywars_'
+  
+  
+# Integrate with https://www.spigotmc.org/resources/party-and-friends-for-bungeecord.9531/
+# This will send entire parties to servers when the party leader teleports, ensuring there 
+# are enough free slots for the entire party.
+party: false
+
+# To avoid concurrency issues, only one player/party can teleport at a time. If a player
+# tries to teleport while the plugin is still calculating a teleport destination for another
+# server, how long to wait before trying again? Default 100ms (2 ticks)
+lock_wait:
+  hub: 100
+  game: 100
+  
+# When all servers are full, how long to wait before trying again?
+# Default 5000ms
+retry_wait:
+  hub: 2500
+  game: 5000
+  
+# How many times to try again?
+# Default 3/5 times (up to 10/25 seconds with default retry_wait)
+retries:
+  hub: 4
+  game: 5

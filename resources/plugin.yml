@@ -1,0 +1,4 @@
+name: SSX-ServerGroup
+main: derkades.serverselectorx.servergroup.SSXServerGroup
+version: dev
+author: Derkades
