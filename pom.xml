@@ -4,11 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>derkades.serverselectorx</groupId>
 	<artifactId>servergroup</artifactId>
-	<name>SSX-ServerGroup</name>
+	<name>ServerGroup</name>
 	<version>beta</version>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		<finalName>${project.name}-${project.version}</finalName>
+		
 		<resources>
 			<resource>
 				<directory>resources/</directory>
