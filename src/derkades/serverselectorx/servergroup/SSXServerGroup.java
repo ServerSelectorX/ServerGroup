@@ -27,7 +27,7 @@ import net.md_5.bungee.config.YamlConfiguration;
 
 public class SSXServerGroup extends Plugin {
 
-	static final String CHANNEL_NAME = "derkades.serverselectorx:servergroup";
+	static final String CHANNEL_NAME = "ssx:servergroup";
 	static AbstractPartyHandler partyHandler = null;
 
 	static SSXServerGroup instance;
