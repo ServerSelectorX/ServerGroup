@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>de.simonsator</groupId>
 			<artifactId>BungeecordPartyAndFriends</artifactId>
-			<version>1.0.89</version>
+			<version>1.0.90</version>
 			<scope>provided</scope>
 		</dependency>
 
