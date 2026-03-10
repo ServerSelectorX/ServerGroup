@@ -10,7 +10,7 @@
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<finalName>${project.name}-${project.version}</finalName>
-		
+
 		<resources>
 			<resource>
 				<directory>resources/</directory>
@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>de.simonsator</groupId>
 			<artifactId>BungeecordPartyAndFriends</artifactId>
-			<version>1.0.93</version>
+			<version>1.0.94</version>
 			<scope>provided</scope>
 		</dependency>
 
